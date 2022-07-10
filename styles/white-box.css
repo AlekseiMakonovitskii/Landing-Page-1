@@ -1,0 +1,42 @@
+.white-box {
+	color:black;
+	display: flex;
+	flex-direction: column;
+	background: white;
+	height: 300px;
+	max-width: 900px!important;
+	min-width: 80%;
+	justify-content: center;
+	padding-left: 50px;
+}
+
+.white-box h4{
+	color: #00000092;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.white-box h3{
+	color: #000000b6;
+	font-size: 40px;
+}
+
+@media (max-width: 1800px) {
+	.white-box {
+		min-width: 100%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.white-box {
+		min-width: 80%;
+		height: 200px;
+	}
+}
+
+@media (max-width: 920px) {
+	.white-box {
+		min-width: 100%;
+		height: 200px;
+	}
+}

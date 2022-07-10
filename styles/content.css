@@ -1,0 +1,43 @@
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	padding: 0px 10px 0px 10px;
+	flex: 1 0 auto;
+}
+
+.main {
+	height: 100%;
+	width: 100%;
+}
+
+
+.text-box {
+	max-width: 600px;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 50px;
+}
+
+.text-box h1 {
+	font-size: 90px;
+}
+
+.text-box span {
+	font-size: 90px;
+}
+
+
+@media (max-width: 1000px) {
+	.text-box {
+		max-width: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.text-box h1 {
+		font-size: 80px;
+	}
+}
+

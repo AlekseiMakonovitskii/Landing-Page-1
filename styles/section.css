@@ -1,0 +1,53 @@
+body {
+	display: flex;
+	flex-direction: row;
+	min-height: 100vh;
+	width: 100%;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+#left-section {
+	background: url(/Images/pexels-pixabay-260447\ 1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+#right-section {
+	background: #EF5555;
+}
+
+.right-main {
+	background: url(/Images/tough\ 1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.left-main {
+	background: #0a0b0fed;
+}
+
+@media (max-width: 1000px) {
+	body {
+		flex-direction: column;
+	}
+
+	.left-main {
+		min-height: 100vh;
+	}
+
+	.right-main {
+		min-height: 100vh;
+	}
+}
